@@ -10,4 +10,40 @@ Skeleton-based action recognition is vital for numerous real-world applications,
 ![abstract_figure](https://github.com/user-attachments/assets/7634cd7c-233c-4ec1-9dac-2497cf6194e1)
 
 
-## Datasets
+## Usage
+
+### Setup 
+1. Clone this repository `{ROOT}`.
+2. Create and activate a `imdm` conda environment using the provided environment:
+   ```
+   conda env create -f imdm.yaml
+   conda activate imdm
+   ```
+
+Please refer to MDM for details.
+
+### Data Preparation
+In this work, we use **NTU-13** and **HumanAct12** datasets. 
+Please follow the dataset preparation steps from [Action2Motion repository](https://github.com/EricGuo5513/action-to-motion).
+
+
+### Co-Training IMDM & MDM
+```
+python run/mdm_imdm_cotrain.py --dataset ntu13
+```
+
+### Synthetic Dataset Generation with Guided-MDM
+```
+python run/mdm_guided_generation.py --dataset ntu13
+```
+
+### Training IMDM with Mixed Data
+```
+python run/mdm_imdm_cotrain_with_mix_dataset.py --dataset ntu13
+```
+
+
+
+## Citation
+If you find our work useful in your research, please cite: 
+
