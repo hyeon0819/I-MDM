@@ -27,7 +27,7 @@ In this work, we use **NTU-13** and **HumanAct12** datasets.
 Please follow the dataset preparation steps from [Action2Motion repository](https://github.com/EricGuo5513/action-to-motion).
 
 
-### Co-Training IMDM & MDM
+### Co-Training I-MDM & MDM
 ```
 python run/mdm_imdm_cotrain.py --dataset ntu13
 ```
@@ -37,7 +37,7 @@ python run/mdm_imdm_cotrain.py --dataset ntu13
 python run/mdm_guided_generation.py --dataset ntu13
 ```
 
-### Training IMDM with Mixed Data
+### Training I-MDM with Mixed Data
 ```
 python run/mdm_imdm_cotrain_with_mix_dataset.py --dataset ntu13
 ```
