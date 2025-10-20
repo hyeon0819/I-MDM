@@ -46,4 +46,13 @@ python run/mdm_imdm_cotrain_with_mix_dataset.py --dataset ntu13
 
 ## Citation
 If you find our work useful in your research, please cite: 
-
+```
+@inproceedings{lee2025discriminative,
+  title={Discriminative Skeleton-Based Action Recognition via Co-Learning with Motion Diffusion Model},
+  author={Lee, Sanghyeon and Fakhry, Ahmed and Kim, Jinwoo and Lee, Jong Taek},
+  booktitle={2025 IEEE International Conference on Advanced Visual and Signal-Based Systems (AVSS)},
+  pages={1--6},
+  year={2025},
+  organization={IEEE}
+}
+```
